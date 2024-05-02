@@ -1,4 +1,4 @@
-let circleY = 750;
+let circleY = 880;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -22,14 +22,15 @@ function draw() {
   } else {
     fill('black');
   }
-  text('The mystery of life', 550, 400);
+  textFont('Helvetica');
+  text('The mystery of life', 500, 450);
   
   if (mouseX > 220 && mouseX < 1600 && mouseY > 500 && mouseY < 630) {
     fill('orange');
   } else {
     fill('black');
   }
-  text('is not a problem to solve,', 400, 600);
+  text('is not a problem to solve,', 330, 650);
   
 
   // PLANETS 
