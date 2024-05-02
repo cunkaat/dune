@@ -9,7 +9,7 @@ function draw() {
   textFont('Helvetica');
   textStyle(BOLD);
   fill('black');
-  text('SO I QUOTED THE FIRST LAW OF MENTAT TO HER:', 460, 120);
+  text('SO I QUOTED THE FIRST LAW OF MENTAT TO HER:', 680, 170);
   
   brighter();
 }
@@ -34,15 +34,15 @@ function brighter() {
   textSize(100);
   textFont('Helvetica');
   fill('white');
-  text('STOPPING', 650, 560);
-  text('IT.', 860, 670);
+  text('STOPPING', 860, 650);
+  text('IT.', 1080, 780);
   
-  if (mouseX > 630 && mouseX < 1200 && mouseY > 470 && mouseY < 700) {
+  if (mouseX > 820 && mouseX < 1400 && mouseY > 550 && mouseY < 800) {
   textSize(100);
   textFont('Helvetica');
   fill('black');
-  text('STOPPING', 650, 560);
-  text('IT.', 860, 670);
+  text('STOPPING', 860, 650);
+  text('IT.', 1080, 780);
     
   }
 }
