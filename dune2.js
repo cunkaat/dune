@@ -11,7 +11,7 @@ function draw() {
   textFont('Helvetica');
   textStyle(BOLD);
   fill('black');
-  text('SHE SAID', 720, 200);
+  text('SHE SAID', 930, 200);
   
 // MAIN TEXT
 
@@ -22,14 +22,14 @@ function draw() {
   } else {
     fill('black');
   }
-  text('The mystery of life', 350, 400);
+  text('The mystery of life', 550, 400);
   
   if (mouseX > 220 && mouseX < 1600 && mouseY > 500 && mouseY < 630) {
     fill('orange');
   } else {
     fill('black');
   }
-  text('is not a problem to solve,', 220, 600);
+  text('is not a problem to solve,', 400, 600);
   
 
   // PLANETS 
