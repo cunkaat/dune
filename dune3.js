@@ -30,7 +30,7 @@ function draw() {
     noStroke();
     textSize(100);
     textStyle(BOLD);
-    textFont('Times New Roman');
+    textFont('Helvetica');
     // textStyle(BOLD);
     text('BUT A REALITY', 140, 240);
     
@@ -58,14 +58,13 @@ function draw() {
     fill('grey');
     noStroke();
     textSize(100);
-    textFont('Times New Roman');
+    textFont('Helvetica');
     textStyle(BOLD);
     text('BUT A REALITY', 140, 240);
     
     fill('white');
     noStroke();
     textSize(100);
-    textFont('Times New Roman');
     text('TO EXPERIENCE.', 1200, 1000);
     
   }
