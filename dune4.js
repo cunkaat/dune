@@ -9,7 +9,7 @@ function draw() {
   textFont('Helvetica');
   textStyle(BOLD);
   fill('black');
-  text('SO I QUOTED THE FIRST LAW OF MENTAT TO HER:', 460, 120);
+  text('SO I QUOTED THE FIRST LAW OF MENTAT TO HER:', 680, 170);
   
   fill('#F4E4D1');
   noStroke();
@@ -42,36 +42,36 @@ function brighter() {
   fill('#DDAA6F');
   ellipse(width/2, (height/2)+70, 400, 400);
   
-  if (mouseX > 780 && mouseX < 1000 && mouseY > 480 && mouseY < 600) {
+  if (mouseX > (width/2)-350 && mouseX < (width/2)+350 && mouseY > (height/2) && mouseY < (height/2)+350) {
     textSize(35);
     textFont('Helvetica');
     fill('black');
-    text('A PROCESS', 800, 490);
-    text('CANNOT BE', 800, 530);
-    text('UNDERSTOOD', 780, 570);
+    text('A PROCESS', 1010, 580);
+    text('CANNOT BE', 1010, 620);
+    text('UNDERSTOOD', 990, 660);
     textSize(35);
     textFont('HELVETICA');
     fill('white');
-    text('BY', 870, 640);  
+    text('BY', 1090, 750);  
   } else {  
     textSize(35);
     textFont('Helvetica');
     fill('white');
-    text('A PROCESS', 800, 490);
-    text('CANNOT BE', 800, 530);
-    text('UNDERSTOOD', 780, 570);
+    text('A PROCESS', 1010, 580);
+    text('CANNOT BE', 1010, 620);
+    text('UNDERSTOOD', 990, 660);
   }
   
-  if (mouseX > 780 && mouseX < 1000 && mouseY > 600 && mouseY < 800) {
+  if (mouseX > 990 && mouseX < 1300 && mouseY > 400 && mouseY < 700) {
     textSize(35);
     textFont('Helvetica');
     fill('white');
-    text('A PROCESS', 800, 490);
-    text('CANNOT BE', 800, 530);
-    text('UNDERSTOOD', 780, 570);
+    text('A PROCESS', 1010, 580);
+    text('CANNOT BE', 1010, 620);
+    text('UNDERSTOOD', 990, 660);
     textSize(35);
     textFont('HELVETICA');
     fill('black');
-    text('BY', 870, 640);  
+    text('BY', 1090, 750);  
   }
 }
