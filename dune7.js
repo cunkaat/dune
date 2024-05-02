@@ -12,18 +12,18 @@ function setup() {
     textFont('Helvetica');
     textStyle(BOLD);
     fill('black');
-    text('THAT', 700, 230);
-    text('SEEMED', 600, 380);
-    text('TO SATISFY', 500, 530);
-    text('HER.', 740, 680);
+    text('THAT', 930, 230);
+    text('SEEMED', 830, 380);
+    text('TO SATISFY', 730, 530);
+    text('HER.', 970, 680);
     
     if (mouseX > 200, mouseY > 200) {
     background('black'); 
     fill('white');
-    text('THAT', 700, 230);
-    text('SEEMED', 600, 380);
-    text('TO SATISFY', 500, 530);
-    text('HER.', 740, 680);
+    text('THAT', 930, 230);
+    text('SEEMED', 830, 380);
+    text('TO SATISFY', 730, 530);
+    text('HER.', 970, 680);
       
     if (mouseX > 200, mouseY > 300) { 
       fill('#8F2412');
