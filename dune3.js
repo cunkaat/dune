@@ -66,7 +66,7 @@ function draw() {
     noStroke();
     textSize(100);
     textFont('Times New Roman');
-    text('TO EXPERIENCE.', 900, 770);
+    text('TO EXPERIENCE.', 900, 750);
     
   }
 
