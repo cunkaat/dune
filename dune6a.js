@@ -13,7 +13,7 @@ function setup() {
   graphic.textFont('Helvetica');
   graphic.textSize(70);
   graphic.textAlign(CENTER, CENTER);
-  graphic.fill('white');
+  graphic.fill('black');
   graphic.textStyle(BOLD);
   graphic.text('WITH THE FLOW', 300, 280);
 }
@@ -31,7 +31,7 @@ function draw() {
     ellipse1Fill = '#FFD19B'; // Revert fill color to initial color
   }
   fill(ellipse1Fill);
-  ellipse(600, 280, 230, 230);
+  ellipse((width/2)-250, (height/2)-250, 230, 230);
 
   // Check if the mouse is hovering over the second ellipse at (390, 310)
   if (dist(mouseX, mouseY, width / 2 + 400, height / 2 + 240) < 50) {
@@ -40,14 +40,14 @@ function draw() {
     ellipse2Fill = '#F2C48E'; // Revert fill color to initial color
   }
   fill(ellipse2Fill);
-  ellipse(1200, 700, 230, 230);
+  ellipse((width/2)+250, (height/2)+250, 230, 230);
 
   fill('WHITE');
   textSize(50);
   textStyle(BOLD);
   textFont('Helvetica');
-  text('UNDERSTANDING MUST MOVE', 520, 300);
-  text('OF THE PROCESS,', 670, 750);
+  text('UNDERSTANDING MUST MOVE', 720, 400);
+  text('OF THE PROCESS,', 900, 850);
 
   const tiles = 6;
   const tileSize = (600 / tiles) + 20;
