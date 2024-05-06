@@ -13,8 +13,7 @@ function setup() {
   gif_createImg.size(windowWidth, windowHeight);
   gif_createGif.size(windowWidth, windowHeight);
   
-  // Add mouse click event listener to the canvas
-//   canvas.mouseClicked(openURL);
+
 }
 
 function draw() {
@@ -23,7 +22,9 @@ function draw() {
   gif_createGif.position(0, 0);
 }
 
-// Function to open the specified URL
-// function openURL() {
-//   window.open("https://cunkaat.github.io/dune/dune1.html");
-// }
+function mousePressed() {
+  if (dist(mouseX > width/2 - 100 && mouseX < width/2 + 100 && mouseY > height/2-100 && mouseY < height/2 +100)) {
+    window.open('https://cunkaat.github.io/dune/dune1.html')
+  }
+  
+}
