@@ -73,3 +73,15 @@ function draw() {
     }
   }
 }
+
+function mouseClicked() {
+  // Check if the mouse is clicked within the boundaries of the first ellipse
+  if (dist(mouseX, mouseY, width / 2 - 250, height / 2 - 250) < 115) {
+    window.open("https://cunkaat.github.io/dune/dune6a.html", "_blank");
+  }
+  
+  // Check if the mouse is clicked within the boundaries of the second ellipse
+  if (dist(mouseX, mouseY, width / 2 + 250, height / 2 + 250) < 115) {
+    window.open("https://cunkaat.github.io/dune/dune7.html", "_blank");
+  }
+}
