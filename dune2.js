@@ -35,7 +35,7 @@ function draw() {
 
   // PLANETS 
 
-    if (mouseX > 200, mouseY > 630) { 
+  if (mouseY >= 350) { 
   fill('#8F2412');
   stroke('black');
   strokeWeight(3);
@@ -48,4 +48,12 @@ function draw() {
   fill('#CF6D2B');
   strokeWeight(3);
   ellipse(width/2+37, circleY-25, 20, 20); }
+}
+
+function mousePressed() {
+  // Check if the mouse is within the area of the ellipses
+  if (mouseX > width/2 - 40 && mouseX < width/2 + 60 && mouseY > circleY - 40 && mouseY < circleY + 40) {
+    // Open the URL in a new tab
+    window.open("https://cunkaat.github.io/dune/dune3a.html", "_blank");
+  }
 }
