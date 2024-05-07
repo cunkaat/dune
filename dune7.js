@@ -53,7 +53,7 @@ function setup() {
     // Check if the mouse is within the area of the ellipses
     if (mouseX > width/2 - 40 && mouseX < width/2 + 60 && mouseY > circleY - 40 && mouseY < circleY + 40) {
       // Open the URL in a new tab
-      window.open("https://cunkaat.github.io/dune/dune1.html", "_blank");
+      window.open("https://cunkaat.github.io/dune/about.html", "_blank");
     }
   }
   
