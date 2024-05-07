@@ -24,7 +24,7 @@ function draw() {
   gif_createImg.position(0, 0);
   gif_createGif.position(0, 0);
   // link.position(width/2, height/2);
-  if (mouseisPressed) {
+  if (mouseIsPressed) {
     window.open('https://cunkaat.github.io/dune/dune1.html');
   }
 
