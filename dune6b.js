@@ -36,10 +36,12 @@ function draw() {
   fill(ellipse1Fill);
   ellipse((width / 2) - 250, (height / 2) - 170, 230, 230);
 
-  stroke('white');
+  //back arrow
+  stroke('black');
   strokeWeight(8);
   line(((width / 2) - 280), ((height / 2) - 170),((width / 2) - 220), ((height / 2) - 170));
-
+  line(((width / 2) - 280), ((height / 2) - 170),((width / 2) - 260), ((height / 2) - 150));
+  line(((width / 2) - 280), ((height / 2) - 170),((width / 2) - 260), ((height / 2) - 190));
   noStroke();
 
   // Check if the mouse is hovering over the second ellipse at (300, 370)
@@ -50,6 +52,16 @@ function draw() {
   }
   fill(ellipse2Fill);
   ellipse((width / 2) + 250, (height / 2) + 200 + 70, 230, 230);
+
+  //forward arrow
+  stroke('black');
+  strokeWeight(8);
+  line(((width / 2) + 220), ((height / 2) + 270),((width / 2) + 280), ((height / 2) + 270));
+  line(((width / 2) + 280), (height / 2) + 270, ((width / 2) + 260), ((height / 2) + 290));
+  line(((width / 2) + 280), (height / 2) + 270, ((width / 2) + 260), ((height / 2) + 250));
+  noStroke();
+
+
 
   const tiles = 6;
   const tileSize = (600 / tiles) + 50;
