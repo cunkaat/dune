@@ -101,6 +101,6 @@ function mouseClicked() {
   
   // Check if the mouse is clicked within the boundaries of the second ellipse
   if (dist(mouseX, mouseY, width / 2 + 250, height / 2 + 200) < 115) {
-    window.open("https://cunkaat.github.io/dune/dune6a.html", "_blank");
+    window.open("https://cunkaat.github.io/dune/dune7.html", "_blank");
   }
 }

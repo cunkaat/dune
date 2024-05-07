@@ -12,10 +12,7 @@ function setup() {
   background(0);
 
   gif_createImg.size(windowWidth, windowHeight);
-  gif_createGif.size(windowWidth, windowHeight);
-
-  // link = createA('https://cunkaat.github.io/dune/dune1.html')
-  
+  gif_createGif.size(windowWidth, windowHeight);  
 
 }
 
@@ -29,10 +26,3 @@ function draw() {
   }
 
 }
-
-// function mousePressed() {
-//   if (mouseX > width/2 && mouseY < height/2) {
-//     window.open('https://cunkaat.github.io/dune/dune1.html')
-//   }
-  
-// }
