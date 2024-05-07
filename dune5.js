@@ -16,12 +16,12 @@ function draw() {
 function brighter() {
   fill('#DDAA6F');
   noStroke();
-  ellipse(width / 2, height / 2, 700, 700);
+  ellipse(width / 2, height / 2+70, 700, 700);
   textSize(100);
   textFont('Helvetica');
   fill('white');
-  text('STOPPING', 860, 590);
-  text('IT.', 1080, 700);
+  text('STOPPING', 860, 610);
+  text('IT.', 1080, 720);
 
   // Check if the mouse is hovering over the first ellipse at (width / 2 - 250, height / 2 - 250)
   if (dist(mouseX, mouseY, width / 2 - 250, height / 2 - 250) < 115) {
@@ -29,7 +29,7 @@ function brighter() {
   } else {
     fill('#FFD19B'); // Revert fill color to initial color
   }
-  ellipse((width / 2) - 250, (height / 2) - 250, 230, 230);
+  ellipse((width / 2) - 250, (height / 2) - 250+70, 230, 230);
 
   // Check if the mouse is hovering over the second ellipse at (width / 2 + 250, height / 2 + 250)
   if (dist(mouseX, mouseY, width / 2 + 250, height / 2 + 250) < 115) {
@@ -37,7 +37,7 @@ function brighter() {
   } else {
     fill('#F2C48E'); // Revert fill color to initial color
   }
-  ellipse((width / 2) + 250, (height / 2) + 250, 230, 230);
+  ellipse((width / 2) + 250, (height / 2) + 250+70, 230, 230);
 }
 
 function mouseClicked() {
