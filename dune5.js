@@ -9,6 +9,7 @@ function draw() {
   textStyle(BOLD);
   fill('black');
   text('SO I QUOTED THE FIRST LAW OF MENTAT TO HER:', 680, 170);
+
   
   brighter();
 }
@@ -23,13 +24,18 @@ function brighter() {
   text('STOPPING', 860, 590);
   text('IT.', 1080, 700);
 
+
   // Check if the mouse is hovering over the first ellipse at (width / 2 - 250, height / 2 - 250)
   if (dist(mouseX, mouseY, width / 2 - 250, height / 2 - 250) < 115) {
     fill('#ADA092'); // Change fill color when hovered
   } else {
     fill('#FFD19B'); // Revert fill color to initial color
   }
-  ellipse((width / 2) - 250, (height / 2) - 250, 230, 230);
+  
+  ellipse((width / 2) - 250, (height / 2) - 250, 230, 230);  stroke('black');
+  strokeWeight(8);
+  line(500, 100, 600, 100);
+  noStroke();
 
   // Check if the mouse is hovering over the second ellipse at (width / 2 + 250, height / 2 + 250)
   if (dist(mouseX, mouseY, width / 2 + 250, height / 2 + 250) < 115) {
