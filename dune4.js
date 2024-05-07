@@ -42,33 +42,33 @@ function brighter() {
     fill('black');
     textSize(35);
     textFont('Helvetica');
-    text('A PROCESS', 1010, 580);
-    text('CANNOT BE', 1010, 620);
-    text('UNDERSTOOD', 990, 660);
+    text('A PROCESS', 1015, 560);
+    text('CANNOT BE', 1015, 600);
+    text('UNDERSTOOD', 995, 640);
     textSize(35);
     textFont('HELVETICA');
     fill('white');
-    text('BY', 1090, 750);  
+    text('BY', 1090, 720);  
   } else {  
     fill('white');
     textSize(35);
     textFont('Helvetica');
-    text('A PROCESS', 1010, 580);
-    text('CANNOT BE', 1010, 620);
-    text('UNDERSTOOD', 990, 660);
+    text('A PROCESS', 1015, 560);
+    text('CANNOT BE', 1015, 600);
+    text('UNDERSTOOD', 995, 640);
   }
   
   if (mouseX > 990 && mouseX < 1300 && mouseY > 400 && mouseY < 700) {
     fill('white');
     textSize(35);
     textFont('Helvetica');
-    text('A PROCESS', 1010, 580);
-    text('CANNOT BE', 1010, 620);
-    text('UNDERSTOOD', 990, 660);
+    text('A PROCESS', 1015, 560);
+    text('CANNOT BE', 1015, 600);
+    text('UNDERSTOOD', 995, 640);
     textSize(35);
     textFont('HELVETICA');
     fill('black');
-    text('BY', 1090, 750);  
+    text('BY', 1090, 720);  
   }
 }
 

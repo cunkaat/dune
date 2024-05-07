@@ -16,7 +16,7 @@ var strokecolor = {
     // Check if mouse is over the yellow ellipse
     if (!mouseIsPressed) {
       var d = dist(mouseX, mouseY, width/2, height/2);
-      if (d < 37.5) { // If mouse is within 37.5 pixels from the center of the ellipse
+      if (d < 70) { // If mouse is within 37.5 pixels from the center of the ellipse
         hoverCircle = true;
       } else {
         hoverCircle = false;

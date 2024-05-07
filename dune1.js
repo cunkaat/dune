@@ -12,16 +12,16 @@ function draw() {
   textFont('Helvetica');
   textStyle(BOLD);
   fill('black');
-  text('I THINK', 890, height/3);
+  text('I THINK', 890, height/3+40);
   text('SHE GOT', 830, 550);
-  text('MAD.', 960, 700);
+  text('MAD.', 970, 700);
   
   if (mouseX > 200 && mouseY > 200) {
     background('black'); 
     fill('white');
-    text('I THINK', 890, height/3);
+    text('I THINK', 890, height/3+40);
     text('SHE GOT', 830, 550);
-    text('MAD.', 960, 700);
+    text('MAD.', 970, 700);
     
     if (mouseX > 200 && mouseY > 300) { 
       fill('#8F2412');
