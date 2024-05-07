@@ -17,7 +17,7 @@ function setup() {
   graphic.fill('black');
   graphic.textStyle(BOLD);
   graphic.text('MUST JOIN IT,', 300, 250);
-  graphic.text('AND FLOW WITH IT,', 300, 370);
+  graphic.text('& FLOW WITH IT,', 300, 370);
 }
 
 function draw() {
@@ -26,26 +26,26 @@ function draw() {
   fill('#DDAA6F');
   ellipse(width/2, height/2+70, 700, 700);
 
-  // Check if the mouse is hovering over the first ellipse at (170, 100)
-  if (dist(mouseX, mouseY, width / 2 - 250, height / 2 - 250) < 115) {
+  // Check if the mouse is hovering over the first ellipse at (300, 250)
+  if (dist(mouseX, mouseY, width / 2 - 250, height / 2 - 170) < 115) {
     ellipse1Fill = '#ADA092'; // Change fill color to #F4E4D1
   } else {
     ellipse1Fill = '#FFD19B'; // Revert fill color to initial color
   }
   fill(ellipse1Fill);
-  ellipse((width / 2) - 250, (height / 2) - 180, 230, 230);
+  ellipse((width / 2) - 250, (height / 2) - 170, 230, 230);
 
-  // Check if the mouse is hovering over the second ellipse at (390, 310)
-  if (dist(mouseX, mouseY, width / 2 + 250, height / 2 + 250) < 115) {
+  // Check if the mouse is hovering over the second ellipse at (300, 370)
+  if (dist(mouseX, mouseY, width / 2 + 250, height / 2 + 200) < 115) {
     ellipse2Fill = '#FFF4E3'; // Change fill color to #D6C6B4
   } else {
     ellipse2Fill = '#F2C48E'; // Revert fill color to initial color
   }
   fill(ellipse2Fill);
-  ellipse((width / 2) + 250, (height / 2) + 250+70, 230, 230);
+  ellipse((width / 2) + 250, (height / 2) + 200 + 70, 230, 230);
 
   const tiles = 6;
-  const tileSize = (600 / tiles) + 20;
+  const tileSize = (600 / tiles) + 50;
 
   // Calculate the starting position for the grid of tiles
   const startX = width / 2 - 300;
@@ -76,12 +76,12 @@ function draw() {
 
 function mouseClicked() {
   // Check if the mouse is clicked within the boundaries of the first ellipse
-  if (dist(mouseX, mouseY, width / 2 - 250, height / 2 - 250) < 115) {
-    window.open("https://cunkaat.github.io/dune/dune6a.html", "_blank");
+  if (dist(mouseX, mouseY, width / 2 - 250, height / 2 - 170) < 115) {
+    window.open("https://cunkaat.github.io/dune/dune4.html", "_blank");
   }
   
   // Check if the mouse is clicked within the boundaries of the second ellipse
-  if (dist(mouseX, mouseY, width / 2 + 250, height / 2 + 250) < 115) {
-    window.open("https://cunkaat.github.io/dune/dune7.html", "_blank");
+  if (dist(mouseX, mouseY, width / 2 + 250, height / 2 + 200) < 115) {
+    window.open("https://cunkaat.github.io/dune/dune6a.html", "_blank");
   }
 }
