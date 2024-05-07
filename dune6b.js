@@ -16,15 +16,15 @@ function setup() {
   graphic.textAlign(CENTER, CENTER);
   graphic.fill('black');
   graphic.textStyle(BOLD);
-  graphic.text('MUST JOIN IT,', 300, 200);
-  graphic.text('AND FLOW WITH IT,', 300, 320);
+  graphic.text('MUST JOIN IT,', 300, 250);
+  graphic.text('AND FLOW WITH IT,', 300, 370);
 }
 
 function draw() {
   background("#D6C6B4");
   noStroke();
   fill('#DDAA6F');
-  ellipse(width/2, height/2, 700, 700);
+  ellipse(width/2, height/2+70, 700, 700);
 
   // Check if the mouse is hovering over the first ellipse at (170, 100)
   if (dist(mouseX, mouseY, width / 2 - 250, height / 2 - 250) < 115) {
@@ -33,7 +33,7 @@ function draw() {
     ellipse1Fill = '#FFD19B'; // Revert fill color to initial color
   }
   fill(ellipse1Fill);
-  ellipse((width/2)-250, (height/2)-250, 230, 230);
+  ellipse((width / 2) - 250, (height / 2) - 180, 230, 230);
 
   // Check if the mouse is hovering over the second ellipse at (390, 310)
   if (dist(mouseX, mouseY, width / 2 + 250, height / 2 + 250) < 115) {
@@ -42,7 +42,7 @@ function draw() {
     ellipse2Fill = '#F2C48E'; // Revert fill color to initial color
   }
   fill(ellipse2Fill);
-  ellipse((width/2)+250, (height/2)+250, 230, 230);
+  ellipse((width / 2) + 250, (height / 2) + 250+70, 230, 230);
 
   const tiles = 6;
   const tileSize = (600 / tiles) + 20;
