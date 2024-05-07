@@ -20,13 +20,6 @@ function preload() {
     gif_createImg.position(0, 0);
     gif_createGif.position(0, 0);
 
-    fill('white');
-    noStroke();
-    textSize(100);
-    textStyle(BOLD);
-    textFont('Helvetica');
-    text(ABOUT, width/2-30, 100);
-
     if (mouseIsPressed) {
       window.open('https://cunkaat.github.io/dune/index.html');
     }
