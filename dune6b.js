@@ -31,9 +31,16 @@ function draw() {
     ellipse1Fill = '#ADA092'; // Change fill color to #F4E4D1
   } else {
     ellipse1Fill = '#FFD19B'; // Revert fill color to initial color
+    
   }
   fill(ellipse1Fill);
   ellipse((width / 2) - 250, (height / 2) - 170, 230, 230);
+
+  stroke('white');
+  strokeWeight(8);
+  line(((width / 2) - 280), ((height / 2) - 170),((width / 2) - 220), ((height / 2) - 170));
+
+  noStroke();
 
   // Check if the mouse is hovering over the second ellipse at (300, 370)
   if (dist(mouseX, mouseY, width / 2 + 250, height / 2 + 200) < 115) {
